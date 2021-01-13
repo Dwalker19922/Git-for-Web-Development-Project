@@ -1,0 +1,246 @@
+  part 2: https://codepen.io/dw765608/pen/rNMqYZO 
+
+  
+
+    1. What is Semantic HTML? 
+
+ A: semantic HTML is a subsection of html that allows you to create tags that are prioritized and used by search engine. 
+
+  
+
+    2. What is HTML used for? 
+
+A:HTML is hyper-text markup language, It is comparable to the structural aspect of a webpage, it is used to give reference for CSS and java and is the basic format of your page   
+
+  
+
+    3. What is an attribute and where do we put it?  
+
+A: A attribute provides information about HTML elements and is usually in the attribute= value format. You use attributes to define and change elements of html. 
+
+  
+
+    4. What is the h1 tag used for? How many times should I use it on a page? 
+
+ 	A: H1 tag is your main heading it should only be used once on a page. 
+
+ 
+
+    5. Name two tags that have required attributes 
+
+ A:  Anchor<a> and IMG tags<img> 
+
+ 
+
+    6. What do we put in the head of our HTML document?  
+
+A: it contains keywords, your <h1> element, as well as links to your css page. 
+
+  
+
+    7. What is an id?  
+
+	A: An Id is a identifier specific to one and only one tag and allows independent styling of a element 
+
+  
+
+    8. What elements can I add an id to?  
+
+	A: You can add an Id to any html tag. 
+
+  
+
+    9. How many times can I use the same id on a page?  
+
+	A: once! 
+
+  
+
+    10. What is a class?  
+
+	A: A class is a identifiying attribute that allows multiple usages of same tag. 
+
+  
+
+    11. What elements can I add a class to?  
+
+	A: a class can be added to any Html tag. 
+
+  
+
+    12. How many times can I use the same class on a page?  
+
+	A: unlimited 
+
+  
+
+    13. How do I get my link to open in a new tab? 
+
+	<a href=”” target=_blank> 
+
+  
+
+    14. What is the alt attribute in the image tag used for?  
+
+ 	To identify what the image is and is used for search engines and screen readers 
+
+    15. How do I reference an id? 
+
+	A: #”ID” in css <tag id=””> in html 
+
+  
+
+    16. What is the difference between a section and a div 
+
+	A: a div is used to group block level elements and a section is a semantic tag used to define a section of text 
+
+  
+
+    17. What is CSS used for?  
+
+	A: css is used to style a webpage 
+
+  
+
+    18. How to we select an element? Example - every h2 on the page 
+
+	H2{ 
+
+              } 
+
+  
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one 
+
+ 	A: class can be used multiple times in a html document and an id must only be used once 
+
+Example 
+
+	<header> 
+
+		<div id=about-section> 
+
+		<h1>sadkljfasdfjsaljghsdg dlfjdkl fjaksdflj</h1> 
+
+		<h2 class=style1>dsfsdfdsasdaffsadfsdfsdffafdf> 
+
+		<p>fdlsjflsdjfkladshgsdlkg  gjdslksdjfdlkjsdaffdlksdahfkdsjahffsdfdlhsdlfhsdfhsdaf jsdhfsd 		fafdsjfsd f;asdl dfjsdfjsjl kdfsdjflsdj</p> 
+
+		<h3 class=style1>sdaasdfasdfdaf</h3> 
+
+  
+
+    20. How do we select classes in CSS? 
+
+	You select classes with a period(.) 
+
+  
+
+    21. How do we select a p element with a single class of “human””? 
+
+	A: p .Human 
+
+	 
+
+  
+
+    22. What is a parent child selector? When would this be useful?  
+
+	A: a parent child selector is a selector that allows you to style all child ellements included in a parent group. It would be useful in selecting all child ellements in a parent tag. 
+
+  
+
+    23. How do you select all links within a div with the class of sidebar? 
+
+	A: Div .sidebar 
+
+  
+
+    24. What is a pseudo selector? 
+
+ 	A: a pseudo selector is a interactive tag that forces change in the aperance of the element when moused over or clicked on. For example a 
+
+    25. What do we use the change the spacing between lines? 
+
+ 	A: 
+
+ p{ 
+
+ line-height:1.5 
+
+} 
+
+    26. What do we use to change the spacing between letters? 
+
+	A: LETTER-SPACING:#PX 
+
+  
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? 
+
+	Text-transform:Uppercase,lowercase,capitalize 
+
+  
+
+    28. How do I add a 1px border around my div that is dotted and black? 
+
+	A: Border:1px dotted black 
+
+  
+
+    29. How do I select everything on the page?  
+
+	A: Body{ 
+
+} 
+
+  
+
+    30. How do I write a comment in CSS?  
+
+ 	A: beginning tag /*       end tag */ 
+
+  
+
+    31. How do I find out what file I am in, when I am using the command line?  
+
+	 
+
+  
+
+    32. Using the command line - how do I see a list of files/folders in my current folder? 
+
+ 	A:Ls command 
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this?  
+
+ 	A:pwd command 
+
+    34. Why should I use version control?  
+
+	A: It is optimized for a team environment and allows changes to be monitored and merged upon approval also all commits are saved and it is possible
+ to revert to previous version of the code. 
+
+  
+
+    35. How often should I commit to GitHub? 
+
+ 
+
+	A: when you are satisfied with your changes or you reach a point that you are at risk of corrupting the code and you may need a clean slate to fall back on. 
+
+	 
+
+  
+
+    36. What is the command we would use to push our repo up to GitHub?  
+
+	A:Git push –u origin firstname-Lastname 
+
+  
+
+    37. Walk me through Lambda's git flow. 
+
+	A::first you must fork the page, then clone the repo using the git clone command, then you must navigate using the cd command to the project folder,bing up visual code studio by entering .code,
+ then use git checkout –b yourfirstname-then lastname to create a branch, then you add your changes using the add . command, Then make your changes,
+ then commit using the git commit –m “comment”, finally push using git push –u origin firstname-lastname,create pull request, turn in pr link to canvas
